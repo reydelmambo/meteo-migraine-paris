@@ -1,0 +1,20 @@
+name: Mise à jour du calendrier
+on:
+  schedule:
+    - cron: "30 4 * * *"   # ~06h30 Paris
+    - cron: "30 15 * * *"  # ~17h30 Paris
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 generate_ics.py
+      - run: |
+          git config user.name "reydelmambo"
+          git config user.email "295465399+reydelmambo@users.noreply.github.com"
+          git add meteo-migraine.ics
+          git diff --cached --quiet || git commit -m "màj prévisions"
+          git push
