@@ -9,26 +9,12 @@ X-WR-CALDESC:Vigilance migraine selon la pression atmosphérique prévue
 X-PUBLISHED-TTL:PT12H
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
-UID:2026-07-22@meteo-migraine-paris
-DTSTAMP:20260719T181405Z
-DTSTART;VALUE=DATE:20260722
-DTEND;VALUE=DATE:20260723
-SUMMARY:🟠 Migraine : météo défavorable
-DESCRIPTION:Baisse modérée de pression prévue (−1\,8 hPa par rapport
-  à la veille) : le profil qui\, historiquement\, accompagne le plus ses
-  migraines (~13 % de risque au lieu de 10 %). Facteur aggravant\, pas un
- e alarme. Rappel des signaux plus forts que la météo : lendemain d'un 
- jour de crise = journée fragile (~40 %) \; jours 3 à 5 après une cris
- e = les plus sûrs (~4 %).
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-07-23@meteo-migraine-paris
-DTSTAMP:20260719T181405Z
+DTSTAMP:20260720T122812Z
 DTSTART;VALUE=DATE:20260723
 DTEND;VALUE=DATE:20260724
 SUMMARY:🟠 Migraine : météo défavorable
-DESCRIPTION:Baisse modérée de pression prévue (−2\,6 hPa par rapport
+DESCRIPTION:Baisse modérée de pression prévue (−2\,4 hPa par rapport
   à la veille) : le profil qui\, historiquement\, accompagne le plus ses
   migraines (~13 % de risque au lieu de 10 %). Facteur aggravant\, pas un
  e alarme. Rappel des signaux plus forts que la météo : lendemain d'un 
