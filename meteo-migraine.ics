@@ -9,17 +9,44 @@ X-WR-CALDESC:Vigilance migraine selon la pression atmosphérique prévue
 X-PUBLISHED-TTL:PT12H
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
-UID:2026-07-22@meteo-migraine-paris
-DTSTAMP:20260720T204344Z
-DTSTART;VALUE=DATE:20260722
-DTEND;VALUE=DATE:20260723
+UID:2026-07-23@meteo-migraine-paris
+DTSTAMP:20260721T112606Z
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
 SUMMARY:🟠 Migraine : météo défavorable
-DESCRIPTION:Baisse modérée de pression prévue (−1\,1 hPa par rapport
+DESCRIPTION:Baisse modérée de pression prévue (−2\,7 hPa par rapport
   à la veille) : le profil qui\, historiquement\, accompagne le plus ses
   migraines (~13 % de risque au lieu de 10 %). Facteur aggravant\, pas un
  e alarme. Rappel des signaux plus forts que la météo : lendemain d'un 
  jour de crise = journée fragile (~40 %) \; jours 3 à 5 après une cris
  e = les plus sûrs (~4 %).
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-26@meteo-migraine-paris
+DTSTAMP:20260721T112606Z
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260727
+SUMMARY:🟠 Migraine : météo défavorable
+DESCRIPTION:Baisse modérée de pression prévue (−1\,2 hPa par rapport
+  à la veille) : le profil qui\, historiquement\, accompagne le plus ses
+  migraines (~13 % de risque au lieu de 10 %). Facteur aggravant\, pas un
+ e alarme. Rappel des signaux plus forts que la météo : lendemain d'un 
+ jour de crise = journée fragile (~40 %) \; jours 3 à 5 après une cris
+ e = les plus sûrs (~4 %).
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-27@meteo-migraine-paris
+DTSTAMP:20260721T112606Z
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260728
+SUMMARY:🟢 Migraine : météo favorable
+DESCRIPTION:Remontée franche de la pression prévue (+7\,4 hPa) : histor
+ iquement l'un des profils les plus calmes (~6 % de risque au lieu de 10 
+ %). Rappel des signaux plus forts que la météo : lendemain d'un jour d
+ e crise = journée fragile (~40 %) \; jours 3 à 5 après une crise = le
+ s plus sûrs (~4 %).
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
