@@ -10,7 +10,7 @@ X-PUBLISHED-TTL:PT12H
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:2026-08-15@meteo-migraine-paris
-DTSTAMP:20260814T055640Z
+DTSTAMP:20260814T161026Z
 DTSTART;VALUE=DATE:20260815
 DTEND;VALUE=DATE:20260816
 SUMMARY:🟠 Migraine : météo défavorable
@@ -24,11 +24,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-18@meteo-migraine-paris
-DTSTAMP:20260814T055640Z
+DTSTAMP:20260814T161026Z
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260819
 SUMMARY:🟠 Migraine : météo défavorable
-DESCRIPTION:Baisse modérée de pression prévue (−1\,8 hPa par rapport
+DESCRIPTION:Baisse modérée de pression prévue (−2\,3 hPa par rapport
   à la veille) : le profil qui\, historiquement\, accompagne le plus ses
   migraines (~13 % de risque au lieu de 10 %). Facteur aggravant\, pas un
  e alarme. Rappel des signaux plus forts que la météo : lendemain d'un 
@@ -38,11 +38,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-19@meteo-migraine-paris
-DTSTAMP:20260814T055640Z
+DTSTAMP:20260814T161026Z
 DTSTART;VALUE=DATE:20260819
 DTEND;VALUE=DATE:20260820
 SUMMARY:🟠 Migraine : météo défavorable
-DESCRIPTION:Baisse modérée de pression prévue (−2\,6 hPa par rapport
+DESCRIPTION:Baisse modérée de pression prévue (−2\,2 hPa par rapport
   à la veille) : le profil qui\, historiquement\, accompagne le plus ses
   migraines (~13 % de risque au lieu de 10 %). Facteur aggravant\, pas un
  e alarme. Rappel des signaux plus forts que la météo : lendemain d'un 
