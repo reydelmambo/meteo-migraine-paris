@@ -8,4 +8,17 @@ X-WR-CALDESC:Vigilance migraine selon la pression atmosphérique prévue
  à Paris
 X-PUBLISHED-TTL:PT12H
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:2026-09-01@meteo-migraine-paris
+DTSTAMP:20260826T050532Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:🟢 Migraine : météo favorable
+DESCRIPTION:Remontée franche de la pression prévue (+7\,5 hPa) : histor
+ iquement l'un des profils les plus calmes (~6 % de risque au lieu de 10 
+ %). Rappel des signaux plus forts que la météo : lendemain d'un jour d
+ e crise = journée fragile (~40 %) \; jours 3 à 5 après une crise = le
+ s plus sûrs (~4 %).
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR
