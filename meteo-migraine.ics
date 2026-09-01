@@ -10,11 +10,11 @@ X-PUBLISHED-TTL:PT12H
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:2026-09-01@meteo-migraine-paris
-DTSTAMP:20260831T205320Z
+DTSTAMP:20260901T093226Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:🟢 Migraine : météo favorable
-DESCRIPTION:Remontée franche de la pression prévue (+6\,3 hPa) : histor
+DESCRIPTION:Remontée franche de la pression prévue (+6\,2 hPa) : histor
  iquement l'un des profils les plus calmes (~6 % de risque au lieu de 10 
  %). Rappel des signaux plus forts que la météo : lendemain d'un jour d
  e crise = journée fragile (~40 %) \; jours 3 à 5 après une crise = le
@@ -22,16 +22,17 @@ DESCRIPTION:Remontée franche de la pression prévue (+6\,3 hPa) : histor
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-05@meteo-migraine-paris
-DTSTAMP:20260831T205320Z
-DTSTART;VALUE=DATE:20260905
-DTEND;VALUE=DATE:20260906
-SUMMARY:🟢 Migraine : météo favorable
-DESCRIPTION:Remontée franche de la pression prévue (+6\,1 hPa) : histor
- iquement l'un des profils les plus calmes (~6 % de risque au lieu de 10 
- %). Rappel des signaux plus forts que la météo : lendemain d'un jour d
- e crise = journée fragile (~40 %) \; jours 3 à 5 après une crise = le
- s plus sûrs (~4 %).
+UID:2026-09-06@meteo-migraine-paris
+DTSTAMP:20260901T093226Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:🟠 Migraine : météo défavorable
+DESCRIPTION:Baisse modérée de pression prévue (−1\,3 hPa par rapport
+  à la veille) : le profil qui\, historiquement\, accompagne le plus ses
+  migraines (~13 % de risque au lieu de 10 %). Facteur aggravant\, pas un
+ e alarme. Rappel des signaux plus forts que la météo : lendemain d'un 
+ jour de crise = journée fragile (~40 %) \; jours 3 à 5 après une cris
+ e = les plus sûrs (~4 %).
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
