@@ -10,7 +10,7 @@ X-PUBLISHED-TTL:PT12H
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:2026-10-24@meteo-migraine-paris
-DTSTAMP:20261022T093257Z
+DTSTAMP:20261022T191735Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:🟢 Migraine : météo favorable
@@ -23,24 +23,38 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-26@meteo-migraine-paris
-DTSTAMP:20261022T093257Z
+DTSTAMP:20261022T191735Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 SUMMARY:🟢 Migraine : météo favorable
-DESCRIPTION:Remontée franche de la pression prévue (+10\,1 hPa) : histo
- riquement l'un des profils les plus calmes (~6 % de risque au lieu de 10
-  %). Rappel des signaux plus forts que la météo : lendemain d'un jour 
- de crise = journée fragile (~40 %) \; jours 3 à 5 après une crise = l
- es plus sûrs (~4 %).
+DESCRIPTION:Remontée franche de la pression prévue (+7\,7 hPa) : histor
+ iquement l'un des profils les plus calmes (~6 % de risque au lieu de 10 
+ %). Rappel des signaux plus forts que la météo : lendemain d'un jour d
+ e crise = journée fragile (~40 %) \; jours 3 à 5 après une crise = le
+ s plus sûrs (~4 %).
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27@meteo-migraine-paris
+DTSTAMP:20261022T191735Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:🟠 Migraine : météo défavorable
+DESCRIPTION:Baisse modérée de pression prévue (−1\,6 hPa par rapport
+  à la veille) : le profil qui\, historiquement\, accompagne le plus ses
+  migraines (~13 % de risque au lieu de 10 %). Facteur aggravant\, pas un
+ e alarme. Rappel des signaux plus forts que la météo : lendemain d'un 
+ jour de crise = journée fragile (~40 %) \; jours 3 à 5 après une cris
+ e = les plus sûrs (~4 %).
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-28@meteo-migraine-paris
-DTSTAMP:20261022T093257Z
+DTSTAMP:20261022T191735Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 SUMMARY:🟢 Migraine : météo favorable
-DESCRIPTION:Remontée franche de la pression prévue (+11\,2 hPa) : histo
+DESCRIPTION:Remontée franche de la pression prévue (+15\,1 hPa) : histo
  riquement l'un des profils les plus calmes (~6 % de risque au lieu de 10
   %). Rappel des signaux plus forts que la météo : lendemain d'un jour 
  de crise = journée fragile (~40 %) \; jours 3 à 5 après une crise = l
