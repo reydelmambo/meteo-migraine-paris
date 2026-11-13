@@ -10,11 +10,11 @@ X-PUBLISHED-TTL:PT12H
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:2026-11-13@meteo-migraine-paris
-DTSTAMP:20261113T123002Z
+DTSTAMP:20261113T212743Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:🟢 Migraine : météo favorable
-DESCRIPTION:Remontée franche de la pression prévue (+13\,6 hPa) : histo
+DESCRIPTION:Remontée franche de la pression prévue (+13\,8 hPa) : histo
  riquement l'un des profils les plus calmes (~6 % de risque au lieu de 10
   %). Rappel des signaux plus forts que la météo : lendemain d'un jour 
  de crise = journée fragile (~40 %) \; jours 3 à 5 après une crise = l
