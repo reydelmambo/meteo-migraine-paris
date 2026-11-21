@@ -9,25 +9,12 @@ X-WR-CALDESC:Vigilance migraine selon la pression atmosphérique prévue
 X-PUBLISHED-TTL:PT12H
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
-UID:2026-11-20@meteo-migraine-paris
-DTSTAMP:20261120T221550Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:🟢 Migraine : météo favorable
-DESCRIPTION:Remontée franche de la pression prévue (+12\,4 hPa) : histo
- riquement l'un des profils les plus calmes (~6 % de risque au lieu de 10
-  %). Rappel des signaux plus forts que la météo : lendemain d'un jour 
- de crise = journée fragile (~40 %) \; jours 3 à 5 après une crise = l
- es plus sûrs (~4 %).
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-21@meteo-migraine-paris
-DTSTAMP:20261120T221550Z
+DTSTAMP:20261121T125422Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:🟢 Migraine : météo favorable
-DESCRIPTION:Remontée franche de la pression prévue (+11\,8 hPa) : histo
+DESCRIPTION:Remontée franche de la pression prévue (+11\,6 hPa) : histo
  riquement l'un des profils les plus calmes (~6 % de risque au lieu de 10
   %). Rappel des signaux plus forts que la météo : lendemain d'un jour 
  de crise = journée fragile (~40 %) \; jours 3 à 5 après une crise = l
@@ -36,15 +23,28 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-23@meteo-migraine-paris
-DTSTAMP:20261120T221550Z
+DTSTAMP:20261121T125422Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:🟢 Migraine : météo favorable
-DESCRIPTION:Remontée franche de la pression prévue (+15\,6 hPa) : histo
+DESCRIPTION:Remontée franche de la pression prévue (+17\,2 hPa) : histo
  riquement l'un des profils les plus calmes (~6 % de risque au lieu de 10
   %). Rappel des signaux plus forts que la météo : lendemain d'un jour 
  de crise = journée fragile (~40 %) \; jours 3 à 5 après une crise = l
  es plus sûrs (~4 %).
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-26@meteo-migraine-paris
+DTSTAMP:20261121T125422Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:🟢 Migraine : météo favorable
+DESCRIPTION:Remontée franche de la pression prévue (+6\,0 hPa) : histor
+ iquement l'un des profils les plus calmes (~6 % de risque au lieu de 10 
+ %). Rappel des signaux plus forts que la météo : lendemain d'un jour d
+ e crise = journée fragile (~40 %) \; jours 3 à 5 après une crise = le
+ s plus sûrs (~4 %).
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
